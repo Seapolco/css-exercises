@@ -11,6 +11,7 @@ body {
 }
 
 .footer {
+  display: flex;
   height: 72px;
   background: #eee;
   color: darkmagenta;
@@ -18,6 +19,7 @@ body {
 
 .sidebar {
   width: 300px;
+  /* height: 85vh; */
   background: royalblue;
 }
 
@@ -26,3 +28,175 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/* ---------------------------------------- */
+
+
+.header {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  font-size:170%;
+  font-weight: bolder;
+}
+
+/* .body {
+  display: flex;
+  flex-direction: column;
+
+} */
+
+.siderbar {
+  display: flex;
+  margin: 50px;
+  width: 500px;
+}
+
+.footer {
+  margin-top: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+
+ul {
+  display: flex;
+  flex-direction: column;
+  margin-right: 100px;
+  list-style: none;
+  justify-content: flex-start;
+  margin-left: 0px;
+  padding-left: 20px;
+}
+
+li {
+  display: flex;
+  width: 200px;
+  margin: 10px 0px;
+
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.content {
+  display: flex;
+  justify-content: space-evenly;
+
+
+}
+
+.card {
+  display: flex;
+  margin: 10px;
+  height: 34vh;
+  width: 40vh;
+  padding: 20px;
+
+}
+
+
+.cardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .header {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  font-size:170%;
+  font-weight: bolder;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.siderbar {
+  display: flex;
+  margin: 50px;
+  width: 500px;
+}
+
+.footer {
+  margin-top: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+
+ul {
+  display: flex;
+  flex-direction: column;
+  margin-right: 100px;
+  list-style: none;
+  justify-content: flex-start;
+  margin-left: 0px;
+  padding-left: 20px;
+}
+
+li {
+  display: flex;
+  width: 200px;
+  margin: 10px 0px;
+
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.content {
+  display: flex;
+  justify-content: space-evenly;
+
+
+}
+
+.card {
+  display: flex;
+  margin: 10px;
+  height: 34vh;
+  width: 40vh;
+  padding: 20px;
+
+}
+
+
+.cardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 20px;
+
+} */
